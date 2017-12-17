@@ -1,7 +1,7 @@
 import TodoDetails from "../models/todoDetails";
 
 export class TodosController {
-    getPlans(): TodoDetails[] {
+    getTodos(): TodoDetails[] {
         return [
             new TodoDetails("1", "Plan winter vacation"),
             new TodoDetails("2", "Sort pictures in OneDrive"),

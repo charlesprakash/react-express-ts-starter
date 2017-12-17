@@ -1,5 +1,5 @@
 import { ApiRouter } from "./apiRouter";
-import PlansRouter from "./plansRouter";
+import TodosRouter from "./todosRouter";
 
 export class ApiSetV1Router extends ApiRouter {
     constructor() {
@@ -8,6 +8,6 @@ export class ApiSetV1Router extends ApiRouter {
     }
 
     init(): void {
-        this.router.use("/plans", PlansRouter);
+        this.router.use("/todos", TodosRouter);
     }
 }

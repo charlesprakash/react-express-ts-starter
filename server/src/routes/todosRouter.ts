@@ -2,18 +2,18 @@ import { Request, Response, NextFunction } from "express";
 import { BaseRouter } from "./BaseRouter";
 import { TodosController } from "../controllers/todosController";
 
-class PlansRouter extends BaseRouter {
-    controller: PlansController;
+class TodosRouter extends BaseRouter {
+    controller: TodosController;
 
     constructor() {
         super();
 
-        this.controller = new PlansController();
+        this.controller = new TodosController();
         this.init();
     }
 
     public getAll(req: Request, res: Response, next: NextFunction) {
-        res.json(this.controller.getPlans());
+        res.json(this.controller.getTodos());
     }
 
     init(): void {
@@ -21,4 +21,4 @@ class PlansRouter extends BaseRouter {
     }
 }
 
-export default new PlansRouter().router;
+export default new TodosRouter().router;
