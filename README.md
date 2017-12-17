@@ -1,6 +1,6 @@
-# Yet another typescript, node, express, react starter kit (yatner-sk)
+# yatner-sk
 
-I searched for a good starter kit that uses create-react-app and expressjs that is readily configured for development, unit testing and deployment. I didn't find anything that I could readily use and I had to plumb a few things together. I am now sharing the output I produced so if someone else needs it they can use it too. :-)
+*Yet another typescript, node, express, react starter kit.* I searched for a good starter kit that uses create-react-app and expressjs that is readily configured for development, unit testing and deployment. I didn't find anything that I could readily use and I had to plumb a few things together. I am now sharing the output I produced so if someone else needs it they can use it too. :-)
 
 ---
 
@@ -13,7 +13,7 @@ I searched for a good starter kit that uses create-react-app and expressjs that 
 * Frontend tooling - **create-react-app**
 * Unit testing - **jest**
 * REST API testing - **supertest**
-* Build tools - **concurrently**, **nodemon**
+* Build tools - **concurrently**, **nodemon**, **webpack**
 
 ---
 

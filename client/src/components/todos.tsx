@@ -18,10 +18,9 @@ class Todos extends React.Component<{}, TodosComponentState> {
         this.state = new TodosComponentState();
     }
 
-    componentDidMount() {
-        controller.getTodos().then(data => {
-            this.setState(new TodosComponentState(data));
-        });
+    async componentDidMount() {
+        let data = await controller.getTodos();
+        this.setState(new TodosComponentState(data));
     }
 
     render(): React.ReactNode {
