@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "module": "commonjs",
+        "target": "es2015",
+        "sourceMap": true,
+        "allowJs": true,
+        "moduleResolution": "node",
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noUnusedLocals": true
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
+    "typeAcquisition": {
+        "enable": true
+    }
+}
