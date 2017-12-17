@@ -1,8 +1,4 @@
-# react-express-ts-starter
-
----
-
-## Yet another typescript, node, express react, starter kit (yatner-sk)
+# Yet another typescript, node, express react, starter kit (yatner-sk)
 
 I searched for a good starter kit that uses create-react-app and expressjs that is readily configured for development, unit testing and deployment. I didn't find anything that I could readily use and I had to plumb a few things together. I am now sharing the output I produced so if someone else needs it they can use it too. :-)
 
