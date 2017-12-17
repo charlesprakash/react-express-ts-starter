@@ -1,5 +1,5 @@
 {
-    "name": "client-server",
+    "name": "yatner",
     "version": "1.0.0",
     "scripts": {
         "install": "concurrently \"cd server&& yarn install\" \"cd client&& yarn install\"",
