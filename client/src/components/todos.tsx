@@ -1,6 +1,7 @@
 import * as React from 'react';
 import TodoDetails from 'models/todoDetails';
 import controller from '../controllers/todos';
+import './todos.css';
 
 class TodosComponentState {
     todos: TodoDetails[];
@@ -25,7 +26,7 @@ class Todos extends React.Component<{}, TodosComponentState> {
 
     render(): React.ReactNode {
         return (
-            <div>
+            <div className="Todos">
                 <ul>
                     {
                         this.state.todos.map(todo => {
